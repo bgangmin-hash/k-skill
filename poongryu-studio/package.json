@@ -1,0 +1,15 @@
+{
+  "name": "poongryu-studio",
+  "private": true,
+  "description": "풍류 콘텐츠 스튜디오 - 블로그 글을 네이버 클립·라운지 초안으로 바꾸는 개인용 로컬 웹 앱",
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "setup": "node scripts/setup.js",
+    "start": "node server.js",
+    "start:mock": "POONGRYU_MOCK=1 node server.js",
+    "test": "node --test test/unit.test.js test/server.test.js",
+    "test:ui": "node test/ui.e2e.js"
+  }
+}

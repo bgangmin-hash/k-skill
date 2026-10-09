@@ -1,0 +1,8 @@
+# 개인 데이터(기록·접속 비밀번호 해시·세션). 절대 커밋하지 않는다.
+data/
+# 개인 작성 지침은 기본적으로 커밋하지 않는다(README만 추적).
+guides/*
+!guides/README.md
+test/output/
+node_modules/
+.DS_Store

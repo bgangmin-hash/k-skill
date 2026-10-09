@@ -58,6 +58,7 @@ done < <(
     ! -name scripts \
     ! -name examples \
     ! -name infra \
+    ! -name poongryu-studio \
     ! -name tools \
     -print0
 )
